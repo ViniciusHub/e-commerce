@@ -1,0 +1,116 @@
+body {
+
+    background-color: #302D47;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container{
+
+    max-width: 1366px;
+    margin: 0 auto;
+
+}
+
+.logo {
+
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    margin-right: 45px;
+
+}
+
+.logo-title {
+    font-size: 51px;
+    font-weight: 900;
+}
+
+.logo-sub-title{
+
+    font-size: 11px;
+    color: #BFBFBF;
+
+}
+
+.welcome{
+
+    color:#BFBFBF;
+    font-size: 20px;
+    
+}
+
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+
+}
+
+.logo-wrapper{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.button{
+
+    background-color: #6C63FF;
+    border: 1px solid #6C63FF;
+    color: #ffffff;
+    padding: 17px 33px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: none;
+    border: 1px solid #6C63FF;
+    transition-duration: 300ms;
+
+}
+
+.button:hover{
+
+    background-color: transparent;
+    color:#6C63FF;
+
+}
+
+.button--red{
+
+    background-color: #EE4C4C;
+    border: 1px solid #EE4C4C;
+
+}
+
+.button--purple:hover{
+
+    border: 1px solid #6C63FF;
+    background-color: transparent;
+    color: #6C63FF;
+
+}
+
+.button--red:hover{
+
+    border: 1px solid #EE4C4C;
+    background-color: transparent;
+    color: #EE4C4C;
+
+}
+
+.button-header-wrapper{
+
+    display: flex;
+
+}
+
+.button-header-wrapper .button--purple {
+
+    margin-right: 15px;
+    
+}
+
