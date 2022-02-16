@@ -64,3 +64,25 @@ button{
 	cursor: pointer;
 
 }
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #8D8BA4;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #8D8BA4;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #8D8BA4;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #8D8BA4;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #8D8BA4;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #8D8BA4;
+}
